@@ -1,0 +1,17 @@
+# Query
+type Query {
+  currentUser: User
+}
+
+# Mutation
+type Mutation {
+  dummy: DummyResponse
+}
+
+type User {
+  id: ID!
+}
+
+type DummyResponse {
+  error: Boolean!
+}

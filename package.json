@@ -1,0 +1,52 @@
+{
+  "name": "next-boilerplate",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "vdev": "run-p watch:*",
+    "codegen": "graphql-codegen --config codegen.yml",
+    "watch:server": "vercel dev",
+    "watch:codegen": "graphql-codegen --config codegen.yml -w"
+  },
+  "dependencies": {
+    "@apollo/react-common": "^3.1.4",
+    "@apollo/react-hooks": "^4.0.0",
+    "apollo-boost": "^0.4.9",
+    "apollo-server-micro": "^2.16.0",
+    "firebase": "^7.16.1",
+    "firebase-admin": "^9.0.0",
+    "graphql": "^15.3.0",
+    "graphql-tag": "^2.10.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^16.13.1",
+    "react-firebase-hooks": "^2.2.0",
+    "react-monaco-editor": "^0.39.1",
+    "rollup": "^2.22.1",
+    "uniroll": "^1.6.0",
+    "uniroll-optimizer": "^1.5.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "@graphql-codegen/cli": "^1.17.4",
+    "@graphql-codegen/introspection": "^1.17.4",
+    "@graphql-codegen/typescript": "^1.17.4",
+    "@graphql-codegen/typescript-operations": "^1.17.4",
+    "@graphql-codegen/typescript-react-apollo": "^1.17.4",
+    "@graphql-codegen/typescript-resolvers": "^1.17.4",
+    "@types/node": "^14.0.24",
+    "@types/react": "^16.9.43",
+    "@zeit/next-css": "^1.0.1",
+    "babel-plugin-transform-typescript-metadata": "^0.3.0",
+    "comlink-loader": "^2.0.0",
+    "npm-run-all": "^4.1.5",
+    "raw-loader": "^4.0.1",
+    "ts-loader": "^8.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^4.0.0-dev.20200721",
+    "vercel": "^19.2.0"
+  }
+}

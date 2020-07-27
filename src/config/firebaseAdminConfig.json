@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "xxxxx",
+  "private_key_id": "xxxxxx",
+  "private_key": "-----BEGIN PRIVATE KEY-----  your private key",
+  "client_email": "xxxx",
+  "client_id": "xxx",
+  "auth_uri": "xxxx",
+  "token_uri": "xxx",
+  "auth_provider_x509_cert_url": "xxxx",
+  "client_x509_cert_url": "xxxx"
+}
